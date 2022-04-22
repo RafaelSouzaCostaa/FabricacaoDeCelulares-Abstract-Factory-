@@ -2,18 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package fabricacaodecelulares.celulares.celularesXiaomi;
+
+package fabricacaodecelulares.celulares.celularesApple;
 
 import fabricacaodecelulares.celulares.Celular;
-import fabricacaodecelulares.fabrica.I_DispositivosAtivoXiaomi;
+import fabricacaodecelulares.fabrica.I_DispositivosAtivoApple;
 
 /**
  *
  * @author Rafael de Souza Costa
  */
-public class RedmiNote7 extends Celular {
+public class Iphone13Pro extends Celular{
 
-        public RedmiNote7() {
-                super(I_DispositivosAtivoXiaomi.REDMI_NOTE_7, "6GB", "128GB", "Xiaomi");
-        }
+    public Iphone13Pro() {
+         super(I_DispositivosAtivoApple.IPHONE_13_PRO, "6GB", "512G", "Apple");
+    }
 }

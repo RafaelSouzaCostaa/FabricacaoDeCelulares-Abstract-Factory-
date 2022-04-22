@@ -12,6 +12,7 @@ import fabricacaodecelulares.celulares.Celular;
  */
 public interface I_FabricasCelulares {
 
-        public Celular criarCelular(String tipoCelular);
-        public String[] getModelosCelularAtivo();
+    public Celular criarCelular(String tipoCelular);
+
+    public String[] getModelosCelularAtivo();
 }
